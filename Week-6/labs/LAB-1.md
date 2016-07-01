@@ -33,7 +33,7 @@ $ restacker deploy -t mytemplate.json -P parameters.json -c dso -l myapp -n $AWS
 
 ## Open Redirects
 
-Ensure you are logged out of the application. When requesting the login page, ensure you append a url=. Then, authenticate to the application. Once authenticated, you should be redirected to your test url.
+Ensure you are logged out of the application. When requesting the login page, ensure you append a `?url=http://YOURTESTURL.COM`. Then, authenticate to the application. Once authenticated, you should be redirected to your test url.
 
 
 ## XSS Attack

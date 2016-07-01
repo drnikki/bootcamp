@@ -48,5 +48,5 @@ Example of XSS JavaScript test code:
 2. Ensure you are signed out of the application first. Make sure you are using something like Firefox as Safari/Chrome won't work for this exercise. Then, use the following link (substitute hostname for your actual hostname) to execute an alert box:
 
 ```
-http://127.0.0.1/?url=%2Fdashboard%2Fhome#test=%3Cscript%3Ealert(document.cookie)%3C/script%3E
+http://127.0.0.1/?url=%2Fdashboard%2Fhome%26test=%3Cscript%3Ealert(document.cookie)%3C/script%3E
 ```
